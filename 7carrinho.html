@@ -2,6 +2,22 @@
 
 <html>
 
+<head>
+
+<style>
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: black;
+}
+
+</style>
+
+</head>
+
 <body>
 
 <div id="itens"> </div>
@@ -32,11 +48,13 @@
  document.getElementById("total").innerHTML = total.toFixed(2); 
 </script>
 
-<button type="button" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+<button type="button" onclick="localStorage.clear(); location.reload();"> Limpar carrinho </button>
 
-<h1 style="text-align:center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-<a href="1fpage.html"style="text-decoration:underline;color:black;">
-<p style="font-size:60px;">Voltar</p>
+<a href="#">
+<p style="font-size:30px; text-align:center;">Finalizar compra</p>
+
+<a href="1fpage.html">
+<p style="font-size:30px; text-align:center;">Continuar comprando</p>
 
 </body>
 
